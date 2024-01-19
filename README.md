@@ -2,6 +2,7 @@
 
 ## 👨‍🏫REST API란
 출처: https://velog.io/@somday/RESTful-API-%EC%9D%B4%EB%9E%80
+
 출처: [https://velog.io/@somday/RESTful-API-%EC%9D%B4%EB%9E%80](https://lifere.tistory.com/entry/Spring-Boot-REST-API-CRUD-%EA%B5%AC%ED%98%84)
 * REST API 에서 REST는 Representational State Transfer의 약자로 소프트웨어 프로그램 아키텍처의 한 형식이다.
 * 즉, 자원을 이름(자원의표현) 으로 구분하여 해당 자원의 상태(정보)를 주고받는 모든것을 의미힌다.
@@ -75,7 +76,7 @@ public void resignMember(@PathVariable Long memberid){
 }
 
 ## 정리
-* 스프링을 이요한 웹 서비스 개발은 Layered Architecture를 활용하여 개발하고, 데이터는 모델클래스를 작성하여 처리한다.
+* 스프링을 이용한 웹 서비스 개발은 Layered Architecture를 활용하여 개발하고, 데이터는 모델클래스를 작성하여 처리한다.
 * HTTP의 GET, POST, PUT, DELETE를 주로 활용하여 데이터의 CRUD를 구현한다.
 * 웹 서비스 테스트를 REST 클라이언트 툴을 통해 가능하다(Postman)
 * 스프링 REST 애플리케이션은 Layered Architecture로 작성되고 @Controller가 최초로 응답을 받고 @Service를 통해 기능을 수행한다.
